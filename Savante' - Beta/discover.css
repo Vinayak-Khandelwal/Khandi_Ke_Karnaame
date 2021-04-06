@@ -1,0 +1,161 @@
+.instruction {
+    display: flex;
+    position: absolute;
+    top: 17vh;
+    left: 30%;
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    top: 23vh;
+    left: 40%;
+}
+
+.gayab {
+    height: 33px;
+    background-color: #2f303a;
+    width: 40vw;
+    position: absolute;
+    top: 25vh;
+    left: 35%;
+}
+
+.discover-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.card-section {
+    display: flex;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem ;
+    padding: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 0.5rem;
+    background-color: #202027;
+    border-radius: 10%;
+    width: 300px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+}
+
+.more {
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+}
+
+.Coming {
+    font-weight: 500;
+    position: absolute;
+    top: 55%;
+}
+
+.filler {
+    display: flex;
+    height: 80px;
+    background-color: #2f303a;
+}
+
+.filler {
+    max-width: 30vw;
+    z-index: -1;
+}
+
+.instruction2 {
+    display: flex;
+    position: absolute;
+    top: 103vh;
+    left: 5%;
+    font-weight: 500;
+}
+
+
+.homepage-circle-1 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: #bc3a80;
+    bottom: 2vw;
+    left: 8vw;
+    opacity: 10%;
+    z-index: -1;
+}
+
+.homepage-circle-2 {
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: #3457b2;
+    top: 30vh;
+    left: 40vw;
+    opacity: 10%;
+    z-index: -1;
+}
+
+.homepage-circle-3 {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    overflow: hidden;
+    bottom: 0;
+    right: 0;
+    opacity: 10%;
+    z-index: -1;
+}
+
+.homepage-circle-3::before {
+    content: '';
+    transform: translate(30%,30%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: #bc3a80 ;
+}
+
+.homepage-circle-4 {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-color: #3457b2;
+    top: 10vh;
+    left: vw;
+    opacity: 10%;
+    z-index: -1;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;    
+}
+
+.card a:hover {
+    color: #adadad;
+}
+
+@media (max-width : 800px) {
+    .discover-main-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
